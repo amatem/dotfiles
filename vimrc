@@ -12,3 +12,4 @@ call plug#end()
 colorscheme nord
 set hlsearch
 let mapleader=','
+set nu
