@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
   Plug 'fholgado/minibufexpl.vim'
-  Plug 'tpose/vim-sensible'
+  Plug 'tpope/vim-sensible'
   Plug 'christoomey/vim-tmux-navigator'
   Plug 'qpkorr/vim-bufkill'
   Plug 'tomtom/tcomment_vim'
@@ -13,6 +13,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'prabirshrestha/asyncomplete-lsp.vim'
   Plug 'mattn/vim-lsp-settings'
   Plug 'HerringtonDarkholme/yats.vim'
+  Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 " Preferences
