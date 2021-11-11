@@ -6,13 +6,17 @@ call plug#begin('~/.vim/plugged')
   Plug 'tomtom/tcomment_vim'
   Plug 'mhinz/vim-signify'
   Plug 'justinmk/vim-dirvish'
-  Plug 'chriskempson/base16-vim'
-  Plug 'HerringtonDarkholme/yats.vim'
+  " Plug 'chriskempson/base16-vim'
+  " Plug 'morhetz/gruvbox'
+  " Plug 'HerringtonDarkholme/yats.vim'
   Plug 'editorconfig/editorconfig-vim'
+  Plug 'lervag/vimtex'
 call plug#end()
 
+let g:vimtex_view_method = 'skim'
+
 " Preferences
-colorscheme base16-phd
+colorscheme ron
 set hlsearch
 let mapleader=','
-set rnu
+set nu
