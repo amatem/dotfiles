@@ -6,6 +6,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'tomtom/tcomment_vim'
   Plug 'mhinz/vim-signify'
   Plug 'justinmk/vim-dirvish'
+  Plug 'vim-scripts/octave.vim--'
+  Plug 'vim-scripts/octave.vim'
   " Plug 'chriskempson/base16-vim'
   " Plug 'morhetz/gruvbox'
   " Plug 'HerringtonDarkholme/yats.vim'
